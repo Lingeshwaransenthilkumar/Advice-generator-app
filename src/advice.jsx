@@ -26,9 +26,9 @@ function Adviceapp(){
             <h5>ADVICE #{id}</h5>
             <h3 className='advice'>" {advice} "</h3>
             {/*<p>Count of advices asked is {count}</p>*/}
-            <div className='desktop-divider'><img src="/images/pattern-divider-desktop.svg" alt="" /></div>
-            <div className='mobile-divider'><img src="/images/pattern-divider-mobile.svg" alt="" /></div>
-            <button className='advice-btn' onClick={getAdvice}><img src="/images/icon-dice.svg" alt="" /></button>
+            <div className='desktop-divider'><img src="./assets/pattern-divider-desktop.svg" alt="" /></div>
+            <div className='mobile-divider'><img src="./assets/pattern-divider-mobile.svg" alt="" /></div>
+            <button className='advice-btn' onClick={getAdvice}><ion-icon name="dice-outline"></ion-icon></button>
 
         </div>
     )

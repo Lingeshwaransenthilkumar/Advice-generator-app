@@ -63,6 +63,9 @@
   margin-right: 5px;
   margin-left: 5px;
 }
+.advice-btn ion-icon{
+  font-size: 40px;
+}
 
 .mobile-divider{
   display: none;
